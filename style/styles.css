@@ -1,5 +1,5 @@
 html{
-    background-color: #198754;
+    background-color: rgba(26, 188, 156, 1);
 }
 
 body{
@@ -13,7 +13,7 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    background-color: darkblue;
+    background-color: rgba(26, 37, 47, 1);
     color: white;
   }
   h1{
@@ -32,6 +32,16 @@ body{
     margin-right: 30px;
     cursor: pointer;
   }
+  .btn{
+    align-items: center;
+    border-color: white;
+    background-color: rgba(26, 188, 156, 1);
+    border-radius: 10px;
+    padding: 20px 20px;
+    color: white;
+    font-size: 1.25rem;
+    text-align: center;
+}
 
   /* section 1 */
   .para1{
@@ -75,17 +85,98 @@ body{
 /* third section */
 .item2{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
+    padding: 3rem;
 }
 
 .text-card{
-    flex: 5rem;
+    flex:0 1 20rem;
+    padding: 1rem;
+    text-align: left;
 }
 
-.btn{
+.btn2{
+    align-items: center;
     border-color: white;
-    background-color: #198754;
+    background-color: rgba(26, 188, 156, 1);
     border-radius: 10px;
-    padding: 20px 20px;
+    padding: 20px 50px;
+    margin: 2rem 0 4rem 0;
+    color: white;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* fourth section */
+.white{
+    background-color: white;
+}
+.para4{
+    padding: 50px 0 150px 0;
+    text-align: center;
+    font-size: 4rem;
+    line-height: 2.75rem;
+    color:rgba(26, 37, 47, 1);;
+    font-weight: bold;
+}
+.btn4{
+    align-items: center;
+    border-color: white;
+    background-color: rgba(26, 188, 156, 1);
+    border-radius: 10px;
+    padding: 20px 50px;
+    margin: 2rem 0 4rem 0;
+    color: white;
+}
+
+
+/* Footer */
+.foot1{
+    height: 300px;
+    background-color: rgba(44, 62, 80, 1);
+}
+.flx{
+    display: flex;
+    padding-top: 50px;
+    justify-content:space-evenly;
+    /* flex: 0 1 10rem; */
+}
+
+.flx2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 319px;
+}
+
+.foot2{
+    margin-top: -20px;
+    height: 80px;
+    background-color:rgba(26, 37, 47, 1);
+    text-align: center;
+}
+
+.copyright{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    font-size: 1rem;
+    color: white
+}
+
+
+.floating-text{
+    font-size: 1.5rem;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+    border-width: 1px;
 }
