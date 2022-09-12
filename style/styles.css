@@ -1,0 +1,32 @@
+html{
+    background-color: #198754;
+}
+
+body{
+    margin: 0px;
+}
+.nav-bar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: darkblue;
+    color: white;
+  }
+  h1{
+    margin-left: 100px;
+  }
+  .list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 100px;
+  }
+  .list > li {
+    margin-right: 30px;
+    cursor: pointer;
+  }
