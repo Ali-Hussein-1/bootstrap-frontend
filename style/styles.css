@@ -72,3 +72,13 @@ body{
     flex: 1 1 22rem;
 }
  
+/* third section */
+.item2{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.text-card{
+    flex: 5rem;
+}
