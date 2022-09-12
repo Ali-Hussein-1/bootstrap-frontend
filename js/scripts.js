@@ -4,9 +4,10 @@ const email = document.querySelector('#email')
 const tel = document.querySelector('#tel')
 const message = document.querySelector('#text')
 const btn = document.querySelector('#btn4')
-btn.addEventListener("click",checkEmail)
+btn.addEventListener("click",checking)
 
 
+// initializing a function to check for any inconvenience
 function checking(){
 
 
