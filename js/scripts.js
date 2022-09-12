@@ -46,3 +46,8 @@ function checkEmail(){
     }
     else{return result}
 }
+
+// initializing a function to check the phone number
+function checkTel(){
+    
+}
