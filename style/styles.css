@@ -26,7 +26,7 @@ body{
     align-items: center;
     font-size: 18px;
     font-weight: bold;
-    margin-right: 100px;
+    margin-right: 10vw;
   }
   .list > li {
     margin-right: 30px;
@@ -126,7 +126,7 @@ body{
     color:rgba(26, 37, 47, 1);;
     font-weight: bold;
 }
-.btn4{
+#btn4{
     align-items: center;
     border-color: white;
     background-color: rgba(26, 188, 156, 1);
@@ -179,4 +179,13 @@ body{
     border-top: 0;
     border-radius: 0;
     border-width: 1px;
+}
+
+@media only screen and (max-width: 990px){
+    .lists{
+        display: none;
+    }
+    .hamburger {
+        display: block;
+      }
 }
