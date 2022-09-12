@@ -53,3 +53,22 @@ body{
     font-size: 1.25rem;
     text-align: center;
 }
+
+/* Second section */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    background-color: white;
+    gap: 1rem;
+    margin: auto;
+    padding: 3rem;
+}
+
+.card-item{
+    border-radius: 10px;
+    overflow: hidden;
+    flex: 1 1 22rem;
+}
+ 
