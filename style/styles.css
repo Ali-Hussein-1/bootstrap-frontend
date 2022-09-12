@@ -5,6 +5,8 @@ html{
 body{
     margin: 0px;
 }
+
+/* navigation bar */
 .nav-bar {
 
     display: flex;
@@ -30,3 +32,24 @@ body{
     margin-right: 30px;
     cursor: pointer;
   }
+
+  /* section 1 */
+  .para1{
+    text-align: center;
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+    color: white;
+    font-weight: bold;
+}
+.avatar{
+    width: 15rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.para2{
+    color: white;
+    font-size: 1.25rem;
+    text-align: center;
+}
